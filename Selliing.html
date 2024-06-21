@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="Stylesheet" href="styles.css">
+    <title>SELLING PAGE</title>
+</head>
+<body>
+    <header>
+        <div>IOLX SELLER</div>
+        <img src="profile5.png" alt="Profile Image" style="position: absolute; top: 0; left: 0; margin: 10px; border-radius: 50%; width: 50px; height: 50px;">
+        <img src="three1.png" alt="Menu bar" style="position: absolute; top: 0; right: 0; margin: 10px; border-radius: 50%; width: 50px; height: 50px;">
+    </header>
+    <p>NO.1 online product selling website around the world</p>
+    <h1>
+        <p>
+            CONTACT INFORMATION
+        </p>
+    </h1>
+    <div class="Name">
+        NAME:
+        <input type="text" id="name-input" placeholder="Enter your name" required>
+    </div>
+    <div class="Number">
+        PHONE NUMBER:
+        <input type="int" id="Number-input" placeholder="Enter your number" required>        
+    </div>
+    <div class="Add">
+        ADDRESS:
+        <input type="text" id="Add-input" placeholder="Enter your location" required>
+    </div>
+    <h3>
+        <p>ITEM DETAILS</p>
+    </h3>
+    <div class="Idetails">
+        ITEM TITLE:
+        <input type="text" id="IT-input" placeholder="Enter" required>
+    </div>
+    <div class="des">
+        DESCRIPTION:
+        <input type="text" id="D-input" placeholder="Enter the description" required>
+    </div>
+    <div class="price">
+        PRICE:
+        <input type="int" id="P-input" placeholder="Enter your expecting price" required>        
+    </div>
+    <div class="Photo">
+        UPLOAD PHOTOS(Up to 5):
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="photo"></label>
+            <input type="file" id="Photo" name="" accept="image/*" required>
+            <button type="submit">UPLOAD</button>
+          </form>      
+    </div>
+</body>
+</html>
